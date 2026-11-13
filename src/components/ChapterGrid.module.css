@@ -1,0 +1,16 @@
+/* 2 cards par ligne sur mobile, autant que possible sur grand écran.
+   La dernière card seule sur sa ligne reste centrée. */
+.grid {
+  --gap: clamp(1rem, 3vw, 1.5rem);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--gap);
+  width: 100%;
+}
+
+.grid > * {
+  width: calc(50% - var(--gap) / 2);
+  max-width: 200px;
+}
