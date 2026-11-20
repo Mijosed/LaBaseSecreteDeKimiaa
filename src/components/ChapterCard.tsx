@@ -21,6 +21,7 @@ export default function ChapterCard({ chapter }: { chapter: Chapter }) {
             sizes="(max-width: 480px) 50vw, 200px"
             className={styles.image}
           />
+          {chapter.note && <span className={styles.note}>{chapter.note}</span>}
         </div>
         <span className={styles.title}>{chapter.title}</span>
       </a>

@@ -12,6 +12,7 @@ export const chapters: Chapter[] = [
     title: "Ao Ashi",
     image: "/chapters/ao_ashi.JPG",
     url: "https://anime-sama.to/catalogue/ao-ashi/",
+    note: "Reprendre après le dernier épisode de l'anime (S2 EP7) : Chapitre 146",
   },
   {
     number: 2,

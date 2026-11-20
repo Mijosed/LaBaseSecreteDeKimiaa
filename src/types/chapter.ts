@@ -11,4 +11,6 @@ export type Chapter = {
   url: string;
   /** Résumé en français (optionnel) : affiche le bouton « doc » sur la card */
   summary?: ReactNode;
+  /** Petite annotation affichée en bandeau sur l'image (optionnel) */
+  note?: string;
 };
